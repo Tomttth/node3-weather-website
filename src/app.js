@@ -116,6 +116,8 @@ app.get('/weather',(req,res)=>{
             })
         }
 
+        console.log(2)
+
 
         forecast(latitude,longitude,(error,forecastData)=>{
 
